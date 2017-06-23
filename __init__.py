@@ -43,7 +43,7 @@ class PANEL_Test_Panel(bpy.types.Panel):
     def draw(self, context):
         layout = self.layout
         layout.label("This is a test interface")
-        layout.label("VERSION 1")
+        layout.label(str(bl_info["version"]))
 
 class DemoPreferences(bpy.types.AddonPreferences):
     bl_idname = __package__
