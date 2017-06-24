@@ -19,7 +19,7 @@
 bl_info = {
     "name": "Test Add-on",
     "author": "Andrew Peel",
-    "version": (2, 1, 1),
+    "version": (2, 1, 2),
     "blender": (2, 7, 0),
     "location": "Tools Shelf",
     "description": "This is a test add-on",
